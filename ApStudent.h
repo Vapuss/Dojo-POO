@@ -11,7 +11,7 @@ int experienta;//cate luni au fost practicate arte martiale
 //int grupa;//nivel de experienta
 
 public:
-    Aplicant()=default;
+    Aplicant(){}
     Aplicant(const std::string& nume_, const int varsta_, const int practicant, const int experienta_) :
         nume{nume_}, varsta{varsta_}, practicant{practicant}, experienta{experienta_}
         {
