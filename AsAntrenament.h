@@ -62,7 +62,7 @@ public:
        zi=other.zi;
        return *this;
     }
-    ~Antrenament();
+    virtual ~Antrenament();
 
     virtual void citire(std::istream &r);
     virtual void afisare(std::ostream &w);
