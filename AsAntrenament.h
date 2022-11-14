@@ -7,12 +7,7 @@ private:
     std::string specializare;//stil de lupta
     std::string telefon;
 public:
-    Antrenor(){
-        nume="";
-        varsta=0;
-        specializare="";
-        telefon="";
-    };
+    Antrenor(){}
     Antrenor(const std::string& nume_, const int varsta_, const std::string& specializare_, const std :: string& telefon_) :
         nume{nume_}, varsta{varsta_}, specializare{specializare_}, telefon{telefon_}
         {
@@ -45,7 +40,7 @@ class Antrenament{
     std::string stil;//Muay Thai, Kickboxing, MMA, Karate
     int zi;//a saptamanii;
 public:
-    Antrenament()=default;
+    Antrenament(){}
     Antrenament(const std::string& stil_,const int zi_):
         stil{stil_},zi{zi_}
         {
