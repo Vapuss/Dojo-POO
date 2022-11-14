@@ -34,7 +34,7 @@ public:
     int getXP() const {return experienta;}
 
 
-     ~Aplicant();
+    virtual ~Aplicant();
     virtual void citire(std::istream &in);
     virtual void afisare(std::ostream &out);
 
